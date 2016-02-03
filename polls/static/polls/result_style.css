@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+body {
+    background-color: #FFF;
+    background-image: url("images/background4.jpg");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bar {
+    cursor: pointer;
+}
+
+g:nth-child(odd) .bar {
+    fill: #419D78;
+}
+
+g:nth-child(even) .bar {
+    fill: #2D3047;
+}
+
+g .bar:hover {
+    fill: #715855;
+}
+
+.axis {
+    font: 15px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: steelblue;
+    shape-rendering: crispEdges;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid #155656;
+    background-color: #155656;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 1.2em;
+    display: block;
+    width: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 5%;
+}
+
+body {
+    text-align: center;
+}

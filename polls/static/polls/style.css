@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+body {
+    background-color: #FFF;
+    background-image: url("images/abc.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    line-height: 1.5em;
+}
+
+ul {
+    text-align: left;
+}
